@@ -20,6 +20,8 @@
 
 ### psql
 
+[Good little tutorial](https://www.postgresqltutorial.com/postgresql-timestamp/)
+
 ##### Logging into postgres
 
 `psql -U postgres` 
