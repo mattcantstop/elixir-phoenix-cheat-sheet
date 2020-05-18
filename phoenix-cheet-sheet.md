@@ -7,11 +7,16 @@
 ##### Aliasing modules to make it easier to access
 
 `alias MyApp.Repo`
+
 `alias MyApp.Post`
 
 ##### Searching for records
 
 `Repo.all(User)`
+
+##### Inserting a post(record)
+
+`Repo.insert(%Post{title: "My Title", content: "Here's my content..."})`
 
 ### psql
 
